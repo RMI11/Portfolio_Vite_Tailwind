@@ -10,6 +10,8 @@ import sc from "./assets/images/Skills/sc.svg";
 import tailwind from "./assets/images/Skills/tailwind.png";
 import vite from "./assets/images/Skills/vite.png";
 import git from "./assets/images/Skills/git.svg";
+import node from "./assets/images/Skills/node.png";
+import express from "./assets/images/Skills/express.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -23,6 +25,7 @@ import video_tube from "./assets/images/projects/video_tube.png";
 import tesla_clone from "./assets/images/projects/tesla_clone.png";
 import netflix_clone from "./assets/images/projects/netflix_clone.png";
 import restate from "./assets/images/projects/restate.png"
+import developedia from "./assets/images/projects/developedia.png"
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -107,6 +110,16 @@ export const content = {
         logo: vite,
       },
       {
+        name: "Node Js",
+        para: "",
+        logo: node,
+      },
+      {
+        name: "Express Js",
+        para: "",
+        logo: express,
+      },
+      {
         name: "Styled Components",
         para: "",
         logo: sc,
@@ -155,6 +168,12 @@ export const content = {
     subtitle: "MY CREATION",
     image: person_project,
     project_content: [
+      {
+        title: "Developedia",
+        image: developedia,
+        demo: 'https://unique-genie-a7df49.netlify.app/',
+      code: 'https://github.com/RMI11/Developedia_MERNstack_SocialMedia'
+      },
       {
         title: "Modern Bank App",
         image: bank_reactapp,
@@ -248,7 +267,7 @@ export const content = {
       {
         text: "Rajko Radojkovic",
         icon: BsLinkedin,
-        link: "https://www.linkedin.com/in/rajko-radojkovic-0a5875236/",
+        link: "https://www.linkedin.com/in/rajkoradojkovic",
       },
       {
         text: "RMI11",
